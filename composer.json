@@ -16,7 +16,7 @@
     ],
     "autoload": {
           "psr-4": {
-                    "": ["Application/Contoller/", "Application/Model/", "Application/"]
+                    "": ["Application/Controller/", "Application/Model/", "Application/"]
            }
     },
     "require": {
