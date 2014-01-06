@@ -1,0 +1,20 @@
+{
+    "name": "ngfw/skeleton-app",
+    "type": "library",
+    "description": "skeleton app for NG Framework",
+    "keywords": ["NG","ngfw","framework","skeleton-app"],
+    "homepage": "https://github.com/ngfw/skeleton-app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick G.",
+            "email": "info@framework.im",
+            "homepage": "http://ng.framework.im",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ngfw/framework": "dev-master"
+    }
+}
