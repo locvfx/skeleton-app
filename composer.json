@@ -16,7 +16,7 @@
     ],
     "autoload": {
           "psr-4": {
-                    "": "Application/Contoller/"
+                    "": "Application/Contoller/",
                     "": "Application/Model/",
                     "": "Application/"
            }
