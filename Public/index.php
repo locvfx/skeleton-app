@@ -31,10 +31,12 @@
  */
 define('DEVELOPMENT_ENVIRONMENT', true);
 define('ROOT', realpath(dirname(__FILE__)."/../"));
+define('VENDOR', realpath(dirname(__FILE__)."/../vendor/"));
 define('PUBLIC_PATH', realpath(dirname(__FILE__)));
 define('DS', DIRECTORY_SEPARATOR);
 define('APPDIR', 'Application');
 
-include (ROOT . DS . APPDIR . DS . "Bootstrap.php");
+require VENDOR . DS . 'autoload.php';
+
 new Bootstrap();
 
