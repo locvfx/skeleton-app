@@ -5,6 +5,7 @@
     "keywords": ["NG","ngfw","framework","skeleton-app"],
     "homepage": "https://github.com/ngfw/skeleton-app",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Nick G.",
