@@ -1,7 +1,7 @@
 {
     "package": {
         "name": "ngfw/skeleton-app",
-        "version": "1.0.0",
+        "version": "dev-master",
         "source": {
           "url": "https://github.com/ngfw/skeleton-app.git",
           "type": "git",
