@@ -30,7 +30,7 @@
  * @version 0.1
  * @copyright (c) 2012, Nick Gejadze
  */
-class IndexController extends NG\Controller {
+class IndexController extends ngfw\Controller {
 
     public function init() {
         

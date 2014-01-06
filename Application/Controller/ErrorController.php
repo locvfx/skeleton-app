@@ -30,7 +30,7 @@
  * @version 0.1
  * @copyright (c) 2012, Nick Gejadze
  */
-class ErrorController extends NG\Controller {
+class ErrorController extends ngfw\Controller {
 
     public function init() {
         
