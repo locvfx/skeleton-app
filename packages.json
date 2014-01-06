@@ -1,11 +1,15 @@
 {
     "package": {
-        "name": "ngfw/skeleton-app",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/ngfw/skeleton-app.git",
-          "type": "git",
-          "reference": "master"
+        "ngfw/skeleton-app": {
+            "dev-master": {
+              "name": "ngfw/skeleton-app",
+              "version": "dev-master",
+              "source": {
+                "url": "https://github.com/ngfw/skeleton-app.git",
+                "type": "git",
+                "reference": "master"
+              }
+           }
         }
     }
 }
