@@ -35,18 +35,18 @@ use ngfw\Bootstrap as FrameworkBootstrap;
 class Bootstrap extends FrameworkBootstrap {
 
     public function _initConfig() {
-        //$config = \NG\Configuration::loadConfigFile(ROOT . DS . APPDIR . DS . 'Config' . DS . 'application.ini');
+        //$config = \NG\Configuration::loadConfigFile($_SERVER["DOCUMENT_ROOT"] . DIRECTORY_SEPARATOR . "Application" . DIRECTORY_SEPARATOR . 'Config' . DIRECTORY_SEPARATOR . 'application.ini');
         //\NG\Registry::set("config", $config);
     }
 
     public function _initRoute() {
-        //$route = \NG\Configuration::loadConfigFile(ROOT . DS . APPDIR . DS . 'Config' . DS . 'route.ini');
+        //$route = \NG\Configuration::loadConfigFile($_SERVER["DOCUMENT_ROOT"] . DIRECTORY_SEPARATOR . "Application" . DIRECTORY_SEPARATOR . 'Config' . DIRECTORY_SEPARATOR . 'route.ini');
         //\NG\Route::addRoute($route['routes']['post']);
     }
 
     public function _initDB() {
-        //$dbconfig = NG\Configuration::loadConfigFile(ROOT . DS . APPDIR . DS . 'Config' . DS . 'database.ini');
-        //$db = new \NG\Database($dbconfig["Database"]["conname"]);
+        //$dbconfig = require ($_SERVER["DOCUMENT_ROOT"] . DIRECTORY_SEPARATOR . "Application" . DIRECTORY_SEPARATOR . 'Config' . DIRECTORY_SEPARATOR . 'database.php');
+        //$db = new \NG\Database($dbconfig);
         //\NG\Registry::set("db", $db);
     }
 

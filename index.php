@@ -30,13 +30,13 @@
  * @copyright (c) 2012, Nick Gejadze
  */
 define('DEVELOPMENT_ENVIRONMENT', true);
-define('ROOT', realpath(dirname(__FILE__)."/../"));
-define('VENDOR', realpath(dirname(__FILE__)."/../vendor/"));
-define('PUBLIC_PATH', realpath(dirname(__FILE__)));
-define('DS', DIRECTORY_SEPARATOR);
-define('APPDIR', 'Application');
+//define('ROOT', realpath(dirname(__FILE__)));
+define('VENDOR', realpath(dirname(__FILE__)."/vendor/"));
+//define('PUBLIC_PATH', realpath(dirname(__FILE__)));
+//define('DS', DIRECTORY_SEPARATOR);
+//define('APPDIR', 'Application');
 
-require VENDOR . DS . 'autoload.php';
+require VENDOR . DIRECTORY_SEPARATOR . 'autoload.php';
 
 new Bootstrap();
 
